@@ -115,6 +115,7 @@ class BPlusTree {
         tree.insert(1);
         tree.insert(3);
         tree.insert(5);
+
         System.out.println(tree.search(3)); // true
         System.out.println(tree.search(4)); // false
 
