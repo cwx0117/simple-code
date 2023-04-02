@@ -5,6 +5,8 @@ package sort;
 //而插入是从循环数组后的一个元素开始比较
 public class BubbleSort {
     private static void bubbleSort(int[] arr) {
+
+
         if(arr==null || arr.length < 2 ){
             return;
         }
